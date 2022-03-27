@@ -7,3 +7,23 @@
     Exemplo: console.log(`Estou transformando tudo em uma string: ${texto}`)
 
 */
+
+let lista = [
+  'Salame',
+  'Carvão',
+  'Carne',
+  'Cerveja',
+  'refrigerante',
+  'queijo',
+  'Cerveja'
+]
+
+lista.push('Bavária')
+console.log(
+  'O método push adiciona 1 ou mais itens ao final do array. Ex: ' + lista
+)
+
+console.log(
+  'O método pop remove e retorna o ultimo elemento do indice do array. Ex: ' +
+    lista.pop()
+)

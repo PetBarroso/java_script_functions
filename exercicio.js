@@ -24,5 +24,6 @@ function controleDeAcesso(altura, vemAcompanhada) {
 }
 
 controleDeAcesso(1.1)
-controleDeAcesso(1.35)
+controleDeAcesso(1.35, false)
+controleDeAcesso(1.35, true)
 controleDeAcesso(1.9)
