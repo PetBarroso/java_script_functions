@@ -24,6 +24,17 @@ console.log(
 )
 
 console.log(
-  'O método pop remove e retorna o ultimo elemento do indice do array. Ex: ' +
+  'O método pop remove e salva o ultimo elemento do indice do array. Ex: ' +
     lista.pop()
 )
+console.log('O método shift remove e salva o primeiro elemento do índice do array. Ex: ' + lista.shift())
+lista.unshift("Salame")
+console.log('O método unshift adiciona um ou mais valores no início do array. Ex: ' + lista)
+
+console.log("O método join junta todos os elementos do array em uma string. Ex: " + lista.join(" | "))
+
+console.log("O método indexOf pesquisa no array o elemento informado (do início para o final). Ex: " + lista.indexOf("Cerveja"))
+
+console.log("O método lastIndexOf pesquisa no array o elemento informado (do final para o início). Ex: " + lista.lastIndexOf("Cerveja"))
+
+console.log("O método includes pesquisa no array o elemento informado e retorna um boolean (true or false). " + lista.includes("Carne"))
