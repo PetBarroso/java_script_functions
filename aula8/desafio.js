@@ -31,7 +31,7 @@ function acaoCarro(callback){
 
 let andar = () =>
   console.log("Carro está andando");
-  acaoCarro(andar);
+  setTimeout(andar, 1000);
 
 let parar = () =>
   console.log("Carro está parado");
